@@ -1,5 +1,5 @@
   New Features
-Add integration step to README.md file *(commit by @onurclb)*
+Use appKeyId instead apiKeyId on sdk initialization *(commit by @onurclb)*
 
   Build System
-Bump package version to v1.0.4
+Bump package version to v1.0.5
