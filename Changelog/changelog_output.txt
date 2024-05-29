@@ -1,5 +1,5 @@
 ### :sparkles: New Features
-- [`3dbb937`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/3dbb937031194901a955b2fe63c6a2105df20e23) - Change package name *(commit by @onurclb)*
+- [`6fb7247`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/6fb72474441ec4432577439e292511e9d71429a2) - Add integration step to README.md file *(commit by @onurclb)*
 
 ### :construction_worker: Build System
-- [`90ddfed`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/90ddfed2fe1c3cab2efbb4e6b79fb6c31d02ed88) - Bump package version to v1.0.3
+- [`44900e3`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/44900e3191d5b9d6dae0c002bfaf3ee222cc4b52) - Bump package version to v1.0.4

@@ -1,5 +1,5 @@
   New Features
-Change package name *(commit by @onurclb)*
+Add integration step to README.md file *(commit by @onurclb)*
 
   Build System
-Bump package version to v1.0.3
+Bump package version to v1.0.4
