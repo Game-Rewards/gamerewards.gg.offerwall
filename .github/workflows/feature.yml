@@ -1,0 +1,9 @@
+name: Mega Package Build Workflow
+
+on:
+  workflow_dispatch:
+  push: 
+      
+jobs:
+  call-reusable-workflow:
+    uses: megafortunagames/mega.builder/.github/workflows/mega_package_builder.yml@main
