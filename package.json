@@ -1,6 +1,6 @@
 {
   "name": "GameRewardsGG",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "",
   "displayName": "GameRewardsGG-OfferWall",
@@ -16,7 +16,6 @@
     "GameRewards",
     "GameRewardsGG",
     "OfferWall"
-
   ],
   "author": {
     "name": "Game Rewards GG",
