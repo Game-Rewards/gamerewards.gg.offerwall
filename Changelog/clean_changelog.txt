@@ -1,6 +1,5 @@
   New Features
-Create README.md *(commit by @onurclb)*
+Change package name *(commit by @onurclb)*
 
   Build System
-Bump package version to v1.0.1
-Bump package version to v1.0.2
+Bump package version to v1.0.3
