@@ -1,5 +1,5 @@
 {
-  "name": "GameRewardsGG",
+  "name": "gamerewards.gg.offerwall",
   "version": "1.0.1",
   "description": "",
   "main": "",
@@ -24,7 +24,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:megafortunagames/GameRewardsOfferWall-Unity.git",
+    "url": "ssh://git@github.com:megafortunagames/gamerewards.gg.offerwall.git",
     "directory": "GameRewardsGG"
   }
 }
