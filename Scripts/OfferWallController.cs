@@ -15,13 +15,13 @@ namespace GameRewards
                 return;
             }
 
-            GameRewardsOfferWall.OnRewardEarned += OnRewardEarned;
-            GameRewardsOfferWall.Init(appKeyId, placementId);
+            GameRewardsOfw.OnRewardEarned += OnRewardEarned;
+            GameRewardsOfw.Init(appKeyId, placementId);
         }
 
         public void ShowOfferWall()
         {
-            GameRewardsOfferWall.Show();
+            GameRewardsOfw.Show();
         }
 
         private void OnRewardEarned(int amount)

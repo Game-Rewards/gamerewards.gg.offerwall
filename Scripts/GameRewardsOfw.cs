@@ -3,7 +3,7 @@ using GameRewardsOfferWall;
 
 namespace GameRewards
 {
-    public static class GameRewardsOfferWall
+    public static class GameRewardsOfw
     {
         public static Action<int> OnRewardEarned;
 
