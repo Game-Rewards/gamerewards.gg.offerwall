@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dependencies>
     <androidPackages>
-        <androidPackage spec="gg.gamerewards:gamerewards-sdk-android:1.0.67">
+        <androidPackage spec="gg.gamerewards:gamerewards-sdk-android:1.0.69">
         </androidPackage>
     </androidPackages>
 </dependencies>
