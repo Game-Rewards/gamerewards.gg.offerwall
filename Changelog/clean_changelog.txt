@@ -1,5 +1,5 @@
   New Features
-Create assembly defination *(commit by @altayturan)*
+Change GameRewardsOfferWall class name *(commit by @altayturan)*
 
   Build System
-Bump package version to v1.0.6
+Bump package version to v1.0.7
