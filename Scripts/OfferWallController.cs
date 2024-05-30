@@ -24,7 +24,7 @@ namespace GameRewards
             GameRewardsOfw.Show();
         }
 
-        private void OnRewardEarned(int amount)
+        private void OnRewardEarned(long amount)
         {
             Debug.Log($"[GameRewards.gg] OnRewardEarned amount: {amount}");
         }
