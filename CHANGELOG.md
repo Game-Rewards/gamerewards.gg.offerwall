@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.11] - 2024-05-30
+### :construction_worker: Build System
+- [`abf881e`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/abf881e044784cc2ccc2391b1ca7a7a0084ae065) - Bump package version to v1.0.11
+
+
 ## [v1.0.10] - 2024-05-30
 ### :construction_worker: Build System
 - [`3c73d24`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/3c73d245f6c08252760b15187eb526400f1bd1d1) - Bump package version to v1.0.10
@@ -82,3 +87,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v1.0.8]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.7...v1.0.8
 [v1.0.9]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.8...v1.0.9
 [v1.0.10]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.9...v1.0.10
+[v1.0.11]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.10...v1.0.11

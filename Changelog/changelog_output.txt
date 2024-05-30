@@ -1,2 +1,2 @@
 ### :construction_worker: Build System
-- [`3c73d24`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/3c73d245f6c08252760b15187eb526400f1bd1d1) - Bump package version to v1.0.10
+- [`abf881e`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/abf881e044784cc2ccc2391b1ca7a7a0084ae065) - Bump package version to v1.0.11

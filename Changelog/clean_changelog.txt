@@ -1,2 +1,2 @@
   Build System
-Bump package version to v1.0.10
+Bump package version to v1.0.11
