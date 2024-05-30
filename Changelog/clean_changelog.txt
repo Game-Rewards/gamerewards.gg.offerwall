@@ -1,5 +1,2 @@
-  New Features
-Change reward type to long from int *(commit by @altayturan)*
-
   Build System
-Bump package version to v1.0.9
+Bump package version to v1.0.10

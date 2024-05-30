@@ -1,5 +1,2 @@
-### :sparkles: New Features
-- [`6ebc70f`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/6ebc70fa9f1104f65977a7d846a3893cc5ed387f) - Change reward type to long from int *(commit by @altayturan)*
-
 ### :construction_worker: Build System
-- [`ba98b74`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/ba98b7486d6c215791f95bbf20b810e9ad1c5f49) - Bump package version to v1.0.9
+- [`3c73d24`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/3c73d245f6c08252760b15187eb526400f1bd1d1) - Bump package version to v1.0.10
