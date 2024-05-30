@@ -1,5 +1,5 @@
   New Features
-Use appKeyId instead apiKeyId on sdk initialization *(commit by @onurclb)*
+Create assembly defination *(commit by @altayturan)*
 
   Build System
-Bump package version to v1.0.5
+Bump package version to v1.0.6

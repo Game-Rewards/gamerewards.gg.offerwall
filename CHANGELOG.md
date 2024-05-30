@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.6] - 2024-05-30
+### :sparkles: New Features
+- [`2bfb007`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/2bfb007636bf6e76f0833c5eeb6974fd3955987c) - Create assembly defination *(commit by [@altayturan](https://github.com/altayturan))*
+
+### :construction_worker: Build System
+- [`11c70e9`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/11c70e9887ca5f7189ac544350ab473a37922a56) - Bump package version to v1.0.6
+
+
 ## [v1.0.5] - 2024-05-29
 ### :sparkles: New Features
 - [`01b67c7`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/01b67c78282d4a80ac06cb1b62a709ca8cf6dccc) - Use appKeyId instead apiKeyId on sdk initialization *(commit by [@onurclb](https://github.com/onurclb))*
@@ -40,3 +48,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v1.0.3]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.2...v1.0.3
 [v1.0.4]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.3...v1.0.4
 [v1.0.5]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.4...v1.0.5
+[v1.0.6]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.5...v1.0.6
