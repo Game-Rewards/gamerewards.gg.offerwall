@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.8] - 2024-05-30
+### :sparkles: New Features
+- [`19f694c`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/19f694cdf37188a84048b610a0102518d888605d) - Change reward type to long from int *(commit by [@altayturan](https://github.com/altayturan))*
+
+### :construction_worker: Build System
+- [`3e42275`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/3e42275920bd704d4a28129658a9261b182f8db3) - Bump package version to v1.0.8
+
+
 ## [v1.0.7] - 2024-05-30
 ### :sparkles: New Features
 - [`f96ea65`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/f96ea656bacd3778f24a9e9b21407229d502e487) - Change GameRewardsOfferWall class name *(commit by [@altayturan](https://github.com/altayturan))*
@@ -58,3 +66,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v1.0.5]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.4...v1.0.5
 [v1.0.6]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.5...v1.0.6
 [v1.0.7]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.6...v1.0.7
+[v1.0.8]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.7...v1.0.8

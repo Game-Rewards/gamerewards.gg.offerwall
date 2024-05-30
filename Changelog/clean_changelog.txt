@@ -1,5 +1,5 @@
   New Features
-Change GameRewardsOfferWall class name *(commit by @altayturan)*
+Change reward type to long from int *(commit by @altayturan)*
 
   Build System
-Bump package version to v1.0.7
+Bump package version to v1.0.8
