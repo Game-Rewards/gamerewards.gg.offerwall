@@ -2,4 +2,4 @@
 Change reward type to long from int *(commit by @altayturan)*
 
   Build System
-Bump package version to v1.0.8
+Bump package version to v1.0.9
