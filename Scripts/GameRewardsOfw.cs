@@ -5,7 +5,7 @@ namespace GameRewards
 {
     public static class GameRewardsOfw
     {
-        public static Action<int> OnRewardEarned;
+        public static Action<long> OnRewardEarned;
 
         public static void Init(string appKeyId, string placementId)
         {
