@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dependencies>
+    <repositories>
+        <repository>
+            <url>http://repo.bgn.mobi/public</url>
+            <allowInsecureProtocol>true</allowInsecureProtocol>
+        </repository>
+    </repositories>
     <androidPackages>
         <androidPackage spec="gg.gamerewards:gamerewards-sdk-android:1.0.71">
         </androidPackage>
