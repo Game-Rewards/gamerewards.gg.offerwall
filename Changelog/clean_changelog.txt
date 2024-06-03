@@ -1,5 +1,5 @@
   New Features
-Change maven repo url *(commit by @onurclb)*
+Update Dependencies.xml *(commit by @onurclb)*
 
   Build System
-Bump package version to v1.0.14
+Bump package version to v1.0.15

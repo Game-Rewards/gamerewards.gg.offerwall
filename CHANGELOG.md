@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.15] - 2024-06-03
+### :sparkles: New Features
+- [`2056ef8`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/2056ef84fe7b14778277c908162cbff4e51d49b6) - Update Dependencies.xml *(commit by [@onurclb](https://github.com/onurclb))*
+
+### :construction_worker: Build System
+- [`8092035`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/8092035cb6e3a5f2d43c2a187f50f95fa5533c0f) - Bump package version to v1.0.15
+
+
 ## [v1.0.14] - 2024-06-03
 ### :sparkles: New Features
 - [`ee9d176`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/ee9d1765c82c503dbcf714f33a2924bb72d1ab7b) - Change maven repo url *(commit by [@onurclb](https://github.com/onurclb))*
@@ -115,3 +123,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v1.0.12]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.11...v1.0.12
 [v1.0.13]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.12...v1.0.13
 [v1.0.14]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.13...v1.0.14
+[v1.0.15]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.14...v1.0.15

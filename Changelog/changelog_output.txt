@@ -1,5 +1,5 @@
 ### :sparkles: New Features
-- [`ee9d176`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/ee9d1765c82c503dbcf714f33a2924bb72d1ab7b) - Change maven repo url *(commit by @onurclb)*
+- [`2056ef8`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/2056ef84fe7b14778277c908162cbff4e51d49b6) - Update Dependencies.xml *(commit by @onurclb)*
 
 ### :construction_worker: Build System
-- [`9a6f0ab`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/9a6f0abf26c7cc6289311576d8a6e84609e1ede7) - Bump package version to v1.0.14
+- [`8092035`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/8092035cb6e3a5f2d43c2a187f50f95fa5533c0f) - Bump package version to v1.0.15
