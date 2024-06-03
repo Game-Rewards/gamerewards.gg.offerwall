@@ -3,7 +3,7 @@
     <androidPackages>
         <androidPackage spec="gg.gamerewards:gamerewards-sdk-android:1.0.2">
             <repositories>
-                <repository>https://mvnrepository.com/artifact/gg.gamerewards/gamerewards-sdk-android</repository>
+                <repository>https://mvnrepository.com/artifact</repository>
             </repositories>
         </androidPackage>
     </androidPackages>
