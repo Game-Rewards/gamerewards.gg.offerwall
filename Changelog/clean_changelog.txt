@@ -1,2 +1,5 @@
+  New Features
+Change ofw sdk distribution channel (maven repository) *(commit by @onurclb)*
+
   Build System
-Bump package version to v1.0.11
+Bump package version to v1.0.12
