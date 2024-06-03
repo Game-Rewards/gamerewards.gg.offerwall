@@ -3,6 +3,10 @@ name: Mega Package Build Workflow
 on:
   workflow_dispatch:
   push: 
+    branches:
+      - feature
+    paths-ignore:
+      - '**/README.md'
       
 jobs:
   call-reusable-workflow:
