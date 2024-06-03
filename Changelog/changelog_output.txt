@@ -1,5 +1,5 @@
-### :sparkles: New Features
-- [`ba2bb4a`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/ba2bb4a61295f9f6c3886fcec3b45d9c4411c869) - Change ofw sdk distribution channel (maven repository) *(commit by @onurclb)*
+### :bug: Bug Fixes
+- [`2bab396`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/2bab39690c4a4ff09da6fad8800200c3b8d9ced0) - Demendencies.xml *(commit by @onurclb)*
 
 ### :construction_worker: Build System
-- [`8943649`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/8943649a06ad636ac6e012aa46f84998b23e7245) - Bump package version to v1.0.12
+- [`76ce799`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/76ce799a71ef9c318208a9db2d26cf04e0b87a26) - Bump package version to v1.0.13

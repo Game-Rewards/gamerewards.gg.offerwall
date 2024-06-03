@@ -1,5 +1,5 @@
-  New Features
-Change ofw sdk distribution channel (maven repository) *(commit by @onurclb)*
+  Bug Fixes
+Demendencies.xml *(commit by @onurclb)*
 
   Build System
-Bump package version to v1.0.12
+Bump package version to v1.0.13
