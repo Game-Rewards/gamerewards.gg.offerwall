@@ -1,5 +1,7 @@
   New Features
+Update feature.yml *(commit by @onurclb)*
+Update README.md *(commit by @onurclb)*
 Update Dependencies.xml *(commit by @onurclb)*
 
   Build System
-Bump package version to v1.0.17
+Bump package version to v1.0.18
