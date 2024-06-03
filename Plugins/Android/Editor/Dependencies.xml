@@ -2,5 +2,5 @@
 <dependency>
     <groupId>gg.gamerewards</groupId>
     <artifactId>gamerewards-sdk-android</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 </dependency>
