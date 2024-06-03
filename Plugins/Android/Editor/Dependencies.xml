@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<dependency>
-    <groupId>gg.gamerewards</groupId>
-    <artifactId>gamerewards-sdk-android</artifactId>
-    <version>1.0.2</version>
-</dependency>
+<dependencies>
+    <androidPackages>
+        <androidPackage spec="gg.gamerewards:gamerewards-sdk-android:1.0.2">
+        </androidPackage>
+    </androidPackages>
+</dependencies>
