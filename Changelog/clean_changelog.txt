@@ -1,5 +1,5 @@
   New Features
-Update Dependencies.xml *(commit by @onurclb)*
+Update Dependencies.xml *(commit by @abdulkadirPOW)*
 
   Build System
-Bump package version to v1.0.17
+Bump package version to v1.0.22

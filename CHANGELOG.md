@@ -4,6 +4,48 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.22] - 2024-06-06
+### :sparkles: New Features
+- [`43451b9`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/43451b9de9a27058fa4294dac6b4d2945383df1c) - Update Dependencies.xml *(commit by [@abdulkadirPOW](https://github.com/abdulkadirPOW))*
+
+### :construction_worker: Build System
+- [`fedc7d3`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/fedc7d313f271223c701a52aa2f0ac260f327e58) - Bump package version to v1.0.22
+
+
+## [v1.0.21] - 2024-06-06
+### :sparkles: New Features
+- [`d020004`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/d020004c3c07c3644a9dae12c3950f1641d5a3a9) - Set user id on offer wall initialize *(commit by [@abdulkadirPOW](https://github.com/abdulkadirPOW))*
+
+### :construction_worker: Build System
+- [`48a0a89`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/48a0a895161c53a15762d7088d326f8524b6aaa9) - Bump package version to v1.0.21
+
+
+## [v1.0.20] - 2024-06-03
+### :sparkles: New Features
+- [`112bce7`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/112bce72f7a67d8804905653b45ac4aba41db796) - Update Dependencies.xml *(commit by [@onurclb](https://github.com/onurclb))*
+
+### :construction_worker: Build System
+- [`59dff35`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/59dff35b967c6b56be8ae66da69267a7dd1f2044) - Bump package version to v1.0.20
+
+
+## [v1.0.19] - 2024-06-03
+### :sparkles: New Features
+- [`a0ebe9f`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/a0ebe9f4fd620dde67238e50d51fcb411db2f511) - Update Dependencies.xml *(commit by [@onurclb](https://github.com/onurclb))*
+
+### :construction_worker: Build System
+- [`d0203ee`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/d0203eebd819c1913196b8a8087cd4b3cc9373df) - Bump package version to v1.0.19
+
+
+## [v1.0.18] - 2024-06-03
+### :sparkles: New Features
+- [`529d695`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/529d695292758c2bbd8762bae841a9cb047885f7) - Update feature.yml *(commit by [@onurclb](https://github.com/onurclb))*
+- [`dd075d7`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/dd075d7fcb2f398f7946087f62cff71344915577) - Update README.md *(commit by [@onurclb](https://github.com/onurclb))*
+- [`cc06df2`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/cc06df2414b71e9d7735c52baa133313d0e07769) - Update Dependencies.xml *(commit by [@onurclb](https://github.com/onurclb))*
+
+### :construction_worker: Build System
+- [`92e69e0`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/92e69e0954c8efb1f313f47742fb01169accf161) - Bump package version to v1.0.18
+
+
 ## [v1.0.17] - 2024-06-03
 ### :sparkles: New Features
 - [`71d1f86`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/71d1f866a294508b65a0c048ebf0ca02144ebd2d) - Update Dependencies.xml *(commit by [@onurclb](https://github.com/onurclb))*
@@ -142,3 +184,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v1.0.15]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.14...v1.0.15
 [v1.0.16]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.15...v1.0.16
 [v1.0.17]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.16...v1.0.17
+[v1.0.18]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.17...v1.0.18
+[v1.0.19]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.18...v1.0.19
+[v1.0.20]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.19...v1.0.20
+[v1.0.21]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.20...v1.0.21
+[v1.0.22]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.21...v1.0.22

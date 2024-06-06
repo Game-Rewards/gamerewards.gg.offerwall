@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<dependency>
-    <groupId>gg.gamerewards</groupId>
-    <artifactId>gamerewards-sdk-android</artifactId>
-    <version>1.0.2</version>
-</dependency>
+<dependencies>
+    <repositories>
+        <repository>
+            <url>http://repo.bgn.mobi/public</url>
+            <allowInsecureProtocol>true</allowInsecureProtocol>
+        </repository>
+    </repositories>
+    <androidPackages>
+        <androidPackage spec="gg.gamerewards:gamerewards-sdk-android:1.0.73">
+        </androidPackage>
+    </androidPackages>
+</dependencies>
