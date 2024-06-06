@@ -1,5 +1,5 @@
   New Features
-Update Dependencies.xml *(commit by @onurclb)*
+Set user id on offer wall initialize *(commit by @abdulkadirPOW)*
 
   Build System
-Bump package version to v1.0.20
+Bump package version to v1.0.21
