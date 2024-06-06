@@ -4,6 +4,7 @@ namespace GameRewards
 {
     public class OfferWallController : MonoBehaviour
     {
+        [SerializeField] private string userId;
         [SerializeField] private string appKeyId;
         [SerializeField] private string placementId;
 
@@ -16,7 +17,7 @@ namespace GameRewards
             }
 
             GameRewardsOfw.OnRewardEarned += OnRewardEarned;
-            GameRewardsOfw.Init(appKeyId, placementId);
+            GameRewardsOfw.Init(appKeyId, placementId, userId);
         }
 
         public void ShowOfferWall()
