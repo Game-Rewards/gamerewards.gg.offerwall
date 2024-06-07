@@ -2,12 +2,12 @@
 <dependencies>
     <repositories>
         <repository>
-            <url>http://repo.bgn.mobi/public</url>
+            <url>https://central.sonatype.com/artifact</url>
             <allowInsecureProtocol>true</allowInsecureProtocol>
         </repository>
     </repositories>
     <androidPackages>
-        <androidPackage spec="gg.gamerewards:gamerewards-sdk-android:1.0.73">
+        <androidPackage spec="gg.gamerewards:gamerewards-sdk-android:1.1.0">
         </androidPackage>
     </androidPackages>
 </dependencies>
