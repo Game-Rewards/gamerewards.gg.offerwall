@@ -7,7 +7,7 @@ The `OfferWallController` class is designed to manage and interact with the Game
 You can integrate the offerwall SDK by either pulling it from the GitHub repository using the following link in your `manifest.json` file:
 
 ```json
-"gamerewards.gg.offerwall": "git@github.com:megafortunagames/gamerewards.gg.offerwall.git#v1.0.22"
+"gamerewards.gg.offerwall": "git@github.com:megafortunagames/gamerewards.gg.offerwall.git#v1.0.23"
 ```
 
 or by downloading the Unity package from the following link:
