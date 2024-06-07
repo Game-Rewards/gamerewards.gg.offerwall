@@ -14,26 +14,6 @@ or by downloading the Unity package from the following link:
 
 [Unity Package](https://github.com/megafortunagames/gamerewards.gg.offerwall/releases)
 
-## Setup
-
-To set up the project, add the following lines to your `settingsTemplate.gradle` if your Unity editor version is 2022 or higher:
-
-```gradle
-maven {
-    url 'http://repo.bgn.mobi/public'
-    allowInsecureProtocol = true
-}
-```
-
-If your Unity editor version is prior to 2022, add the lines to maintemplate.gradle instead:
-
-```gradle
-maven {
-    url 'http://repo.bgn.mobi/public'
-    allowInsecureProtocol = true
-}
-```
-
 
 ## ProGuard Configuration
 
