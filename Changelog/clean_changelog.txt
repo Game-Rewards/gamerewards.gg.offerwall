@@ -2,4 +2,4 @@
 Update Dependencies.xml *(commit by @abdulkadirPOW)*
 
   Build System
-Bump package version to v1.0.23
+Bump package version to v1.0.24
