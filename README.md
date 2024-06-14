@@ -10,13 +10,22 @@ The `OfferWallController` class is designed to manage and interact with the Game
 You can integrate the offerwall SDK by either pulling it from the GitHub repository using the following link in your `manifest.json` file:
 
 ```json
-"gamerewards.gg.offerwall": "git@github.com:megafortunagames/gamerewards.gg.offerwall.git#v1.0.24"
+"gamerewards.gg.offerwall": "git@github.com:megafortunagames/gamerewards.gg.offerwall.git#v1.0.25"
 ```
 
 or by downloading the Unity package from the following link:
 
 [Unity Package](https://github.com/megafortunagames/gamerewards.gg.offerwall/releases)
 
+## Setup
+
+To set up the project, add the following lines to your `settingsTemplate.gradle`:
+
+```gradle
+maven {
+    url 'https://repo.gamerewards.gg/releases'
+}
+```
 
 ## ProGuard Configuration
 
@@ -24,11 +33,11 @@ To ensure proper functioning of the gg.gamerewards SDK, please add the following
 
 ```proguard
 -keep class gg.gamerewards.** { *; }
--keep class gg.gamerewards.Richie { *; }
+-keep class gg.gamerewards.GameRewards { *; }
 -keep class gg.gamerewards.builder.** { *; }
--keep class gg.gamerewards.interfaces.RichieInitializationListener { *; }
--keep class gg.gamerewards.Richie$Options { *; }
--keep class gg.gamerewards.interfaces.RichieRewardCallback { *; }
+-keep class gg.gamerewards.interfaces.GameRewardsInitializationListener { *; }
+-keep class gg.gamerewards.GameRewards$Options { *; }
+-keep class gg.gamerewards.interfaces.GameRewardsRewardCallback { *; }
 -keep class gg.gamerewards.data.model.response.Claim { *; }
 -keepnames class androidx.navigation.fragment.NavHostFragment
 -keep class * extends androidx.fragment.app.Fragment{}

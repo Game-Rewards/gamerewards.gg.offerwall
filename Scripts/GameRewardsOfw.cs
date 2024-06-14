@@ -1,7 +1,7 @@
 using System;
 using GameRewardsOfferWall;
 
-namespace GameRewards
+namespace GameRewardsUnitySDK
 {
     public static class GameRewardsOfw
     {
@@ -9,14 +9,14 @@ namespace GameRewards
 
         public static void Init(string appKeyId, string placementId, string userId)
         {
-            var richieRewardCallbackListener =
-                new RichieRewardCallbackListener(OnRewardEarned);
-            RichieOfferWall.Init(richieRewardCallbackListener, appKeyId, placementId, userId);
+            var gameRewardsCallbackListener =
+                new GameRewardsCallbackListener(OnRewardEarned);
+            GameRewards.Init(gameRewardsCallbackListener, appKeyId, placementId, userId);
         }
 
         public static void Show()
         {
-            RichieOfferWall.Show();
+            GameRewards.Show();
         }
     }
 }

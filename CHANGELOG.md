@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.25] - 2024-06-14
+### :sparkles: New Features
+- [`54ba0b2`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/54ba0b2406be9fa7cb42f7c0d756a88a8d691e98) - Update offerwall dll and remove Richie name *(commit by [@abdulkadirPOW](https://github.com/abdulkadirPOW))*
+- [`f6bb95d`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/f6bb95d943b2930831160ce4263d73f89a0e3897) - Update dependencies.yml *(commit by [@abdulkadirPOW](https://github.com/abdulkadirPOW))*
+- [`5972621`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/5972621a68b2520855723a1d4b735e61fa00e6ad) - Update README.md *(commit by [@abdulkadirPOW](https://github.com/abdulkadirPOW))*
+
+### :construction_worker: Build System
+- [`597e1d5`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/597e1d583d19e701c21f3750a75ccae83b7bd5c6) - Update README.md *(commit by [@abdulkadirPOW](https://github.com/abdulkadirPOW))*
+- [`66373da`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/66373dae374a8d49f370adcbb686abb0904deac6) - Update README.md *(commit by [@abdulkadirPOW](https://github.com/abdulkadirPOW))*
+- [`18752d0`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/18752d09983bb8a12423c834f4f2c234c45d6327) - Bump package version to v1.0.25
+
+
 ## [v1.0.24] - 2024-06-13
 ### :sparkles: New Features
 - [`9b1bc03`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/9b1bc03d96c68e0a722587cd3641c108ab8fd08b) - Update Dependencies.xml *(commit by [@abdulkadirPOW](https://github.com/abdulkadirPOW))*
@@ -207,3 +219,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v1.0.22]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.21...v1.0.22
 [v1.0.23]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.22...v1.0.23
 [v1.0.24]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.23...v1.0.24
+[v1.0.25]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.24...v1.0.25

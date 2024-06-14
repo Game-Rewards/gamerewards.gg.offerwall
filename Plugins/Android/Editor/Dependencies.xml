@@ -6,7 +6,7 @@
         </repository>
     </repositories>
     <androidPackages>
-        <androidPackage spec="gg.gamerewards:gamerewards-sdk-android:1.0.1">
+        <androidPackage spec="gg.gamerewards:gamerewards-sdk-android:1.0.5">
         </androidPackage>
     </androidPackages>
 </dependencies>

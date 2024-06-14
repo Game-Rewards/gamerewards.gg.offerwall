@@ -1,5 +1,9 @@
 ### :sparkles: New Features
-- [`9b1bc03`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/9b1bc03d96c68e0a722587cd3641c108ab8fd08b) - Update Dependencies.xml *(commit by @abdulkadirPOW)*
+- [`54ba0b2`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/54ba0b2406be9fa7cb42f7c0d756a88a8d691e98) - Update offerwall dll and remove Richie name *(commit by @abdulkadirPOW)*
+- [`f6bb95d`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/f6bb95d943b2930831160ce4263d73f89a0e3897) - Update dependencies.yml *(commit by @abdulkadirPOW)*
+- [`5972621`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/5972621a68b2520855723a1d4b735e61fa00e6ad) - Update README.md *(commit by @abdulkadirPOW)*
 
 ### :construction_worker: Build System
-- [`6edfa36`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/6edfa36b3876bf9287056e5d540387a740fda181) - Bump package version to v1.0.24
+- [`597e1d5`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/597e1d583d19e701c21f3750a75ccae83b7bd5c6) - Update README.md *(commit by @abdulkadirPOW)*
+- [`66373da`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/66373dae374a8d49f370adcbb686abb0904deac6) - Update README.md *(commit by @abdulkadirPOW)*
+- [`18752d0`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/18752d09983bb8a12423c834f4f2c234c45d6327) - Bump package version to v1.0.25
