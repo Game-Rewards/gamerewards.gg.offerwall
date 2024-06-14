@@ -1,5 +1,9 @@
   New Features
-Update Dependencies.xml *(commit by @abdulkadirPOW)*
+Update offerwall dll and remove Richie name *(commit by @abdulkadirPOW)*
+Update dependencies.yml *(commit by @abdulkadirPOW)*
+Update README.md *(commit by @abdulkadirPOW)*
 
   Build System
-Bump package version to v1.0.24
+Update README.md *(commit by @abdulkadirPOW)*
+Update README.md *(commit by @abdulkadirPOW)*
+Bump package version to v1.0.25
