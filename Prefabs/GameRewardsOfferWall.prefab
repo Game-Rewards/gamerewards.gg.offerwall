@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1184186008821442129}
   - component: {fileID: 8294683504757516633}
   m_Layer: 0
-  m_Name: RichieOfferWall
+  m_Name: GameRewardsOfferWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
