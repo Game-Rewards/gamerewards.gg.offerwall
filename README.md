@@ -17,6 +17,15 @@ or by downloading the Unity package from the following link:
 
 [Unity Package](https://github.com/megafortunagames/gamerewards.gg.offerwall/releases)
 
+## Setup
+
+To set up the project, add the following lines to your `settingsTemplate.gradle`:
+
+```gradle
+maven {
+    url 'https://repo.gamerewards.gg/releases'
+}
+```
 
 ## ProGuard Configuration
 
