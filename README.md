@@ -24,11 +24,11 @@ To ensure proper functioning of the gg.gamerewards SDK, please add the following
 
 ```proguard
 -keep class gg.gamerewards.** { *; }
--keep class gg.gamerewards.Richie { *; }
+-keep class gg.gamerewards.GameRewards { *; }
 -keep class gg.gamerewards.builder.** { *; }
--keep class gg.gamerewards.interfaces.RichieInitializationListener { *; }
--keep class gg.gamerewards.Richie$Options { *; }
--keep class gg.gamerewards.interfaces.RichieRewardCallback { *; }
+-keep class gg.gamerewards.interfaces.GameRewardsInitializationListener { *; }
+-keep class gg.gamerewards.GameRewards$Options { *; }
+-keep class gg.gamerewards.interfaces.GameRewardsRewardCallback { *; }
 -keep class gg.gamerewards.data.model.response.Claim { *; }
 -keepnames class androidx.navigation.fragment.NavHostFragment
 -keep class * extends androidx.fragment.app.Fragment{}

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GameRewards
+namespace GameRewardsUnitySDK
 {
     public class OfferWallController : MonoBehaviour
     {
