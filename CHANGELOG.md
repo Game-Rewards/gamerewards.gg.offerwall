@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.26] - 2024-06-20
+### :sparkles: New Features
+- [`daf2e5e`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/daf2e5e7103e85e31c04b10cf7fb9e96ca33c4d1) - Update Dependencies.xml *(commit by [@akadirdursun](https://github.com/akadirdursun))*
+- [`d5abcb7`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/d5abcb741fced038150b5d7971ad2b9b95c2c052) - Update README.md *(commit by [@akadirdursun](https://github.com/akadirdursun))*
+
+### :construction_worker: Build System
+- [`1dcf59f`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/1dcf59f068ce2cee7865b96c0d0cf3aad6117856) - Update README.md *(commit by [@abdulkadirPOW](https://github.com/abdulkadirPOW))*
+- [`1f7a70a`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/1f7a70a09b67efd91544c7a63c0b32953cff9ae2) - Bump package version to v1.0.26
+
+
 ## [v1.0.25] - 2024-06-14
 ### :sparkles: New Features
 - [`54ba0b2`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/54ba0b2406be9fa7cb42f7c0d756a88a8d691e98) - Update offerwall dll and remove Richie name *(commit by [@abdulkadirPOW](https://github.com/abdulkadirPOW))*
@@ -220,3 +230,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v1.0.23]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.22...v1.0.23
 [v1.0.24]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.23...v1.0.24
 [v1.0.25]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.24...v1.0.25
+[v1.0.26]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.25...v1.0.26
