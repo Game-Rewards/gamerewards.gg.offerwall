@@ -13,9 +13,6 @@ You can integrate the offerwall SDK by either pulling it from the GitHub reposit
 "gamerewards.gg.offerwall": "git@github.com:megafortunagames/gamerewards.gg.offerwall.git#v1.0.26"
 ```
 
-or by downloading the Unity package from the following link:
-
-[Unity Package](https://github.com/megafortunagames/gamerewards.gg.offerwall/releases)
 
 ## Setup
 
