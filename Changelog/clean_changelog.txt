@@ -1,7 +1,5 @@
   New Features
-Update Dependencies.xml *(commit by @akadirdursun)*
-Update README.md *(commit by @akadirdursun)*
+Update package version to 1.0.7 from 1.0.6 *(commit by @onurclb)*
 
   Build System
-Update README.md *(commit by @abdulkadirPOW)*
-Bump package version to v1.0.26
+Bump package version to v1.0.27
