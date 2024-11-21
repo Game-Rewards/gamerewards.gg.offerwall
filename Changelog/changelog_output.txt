@@ -1,7 +1,5 @@
 ### :sparkles: New Features
-- [`daf2e5e`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/daf2e5e7103e85e31c04b10cf7fb9e96ca33c4d1) - Update Dependencies.xml *(commit by @akadirdursun)*
-- [`d5abcb7`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/d5abcb741fced038150b5d7971ad2b9b95c2c052) - Update README.md *(commit by @akadirdursun)*
+- [`2c51861`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/2c51861c5145b3e11f0d048c7dc616b2a65a0222) - Update package version to 1.0.7 from 1.0.6 *(commit by @onurclb)*
 
 ### :construction_worker: Build System
-- [`1dcf59f`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/1dcf59f068ce2cee7865b96c0d0cf3aad6117856) - Update README.md *(commit by @abdulkadirPOW)*
-- [`1f7a70a`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/1f7a70a09b67efd91544c7a63c0b32953cff9ae2) - Bump package version to v1.0.26
+- [`ab56736`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/ab5673605c9faee92a386342f8961875941a27dd) - Bump package version to v1.0.27
