@@ -1,5 +1,5 @@
-name: Mega Package Build Workflow
-
+name: Offerwall Package CI/CD
+    
 on:
   workflow_dispatch:
   push: 
@@ -7,7 +7,108 @@ on:
       - feature
     paths-ignore:
       - '**/README.md'
-      
+  
 jobs:
-  call-reusable-workflow:
-    uses: megafortunagames/mega.builder/.github/workflows/mega_package_builder.yml@main
+  distribute:
+    runs-on: ubuntu-latest
+    name: Distribute Package
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: https://npm.pkg.github.com/
+          scope: '@megafortunagames'
+      - run: npm install
+      - name: Increase package version
+        run: |
+          if [[ $GITHUB_REF == refs/heads/hotfix* ]]; then
+            echo "VERSION=$(npm version --no-git-tag-version prerelease)" >> $GITHUB_ENV
+          else
+            echo "VERSION=$(npm version --no-git-tag-version patch)" >> $GITHUB_ENV
+          fi
+      - run: |
+         git config user.name megafortunagames
+         git config user.email dev@megafortunagames.co
+         git add .
+         git commit -m "ci: Bump package version to ${{ env.VERSION }}"
+         git push -u origin ${{ env.BRANCH }}
+         git tag "${{ env.VERSION }}"
+         git push --tags
+         
+      - name: Cleanup build folder
+        run: |
+          ls -la ./
+          rm -rf ./* || true
+          rm -rf ./.??* || true
+          ls -la ./
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: ${{ env.BRANCH }}
+      - name: Get previous tag
+        id: oldestTag
+        run: |
+          name=$(git --no-pager tag --sort=creatordate --merged ${{ github.ref_name }} | tail -1 | head -1)
+          echo "previousTag: $name"
+          echo "previousTag=$name" >> $GITHUB_ENV
+      - name: Pull remote branch
+        id: pull
+        run: |
+          git pull origin ${{ env.BRANCH }}
+      - name: Update CHANGELOG
+        id: changelog
+        uses: requarks/changelog-action@v1
+        with:
+          token: ${{ github.token }}
+          fromTag: ${{ env.VERSION }}
+          toTag: ${{ env.previousTag }}
+          excludeTypes: docs
+
+      - name: Overwrite file
+        uses: "DamianReeves/write-file-action@master"
+        with:
+          path: ${{ github.workspace }}/Changelog/changelog_output.txt
+          write-mode: overwrite
+          contents: |
+            ${{ steps.changelog.outputs.changes }}
+            
+      - name: Clear changelog content
+        run: |
+          input_file="${{ github.workspace }}/Changelog/changelog_output.txt"
+          output_file="${{ github.workspace }}/Changelog/clean_changelog.txt"
+
+          # Check if the input file exists
+          if [ ! -f "$input_file" ]; then
+            echo "Error: Input file not found: $input_file"
+            exit 1
+          fi
+
+          # Perform text formatting and redirect to output file
+          formatted_message=$(sed -E 's/- \[`[0-9a-f]+`\]\([^)]+\) - //g; s/\[\`[0-9a-f]+\`\]\([^)]+\)//g; s/### :[^:]+:/ /g' "$input_file")
+          echo "$formatted_message" > "$output_file"
+          
+      - name: Read clean changelog
+        id: clean_changelog
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ${{ github.workspace }}/Changelog/clean_changelog.txt
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.VERSION }}
+          release_name: ${{ env.VERSION }}
+          body: ${{ steps.changelog.outputs.changes }}
+          allowUpdates: true
+          
+      - run: |
+         git config user.name megafortunagames
+         git config user.email dev@megafortunagames.gg
+         git add .
+         git commit -m "docs: ${{ github.ref_name }} Update CHANGELOG.md"
+         git push -u origin ${{ env.BRANCH }}
