@@ -10,8 +10,9 @@ The `OfferWallController` class is designed to manage and interact with the Game
 You can integrate the offerwall SDK by either pulling it from the GitHub repository using the following link in your `manifest.json` file:
 
 ```json
-"gamerewards.gg.offerwall": "git@github.com:megafortunagames/gamerewards.gg.offerwall.git#v1.0.26"
+"gamerewards.gg.offerwall": "git@github.com:Game-Rewards/gamerewards.gg.offerwall.git#v1.0.28"
 ```
+
 
 ## Setup
 
@@ -56,8 +57,8 @@ To ensure proper functioning of the gg.gamerewards SDK, please add the following
       ```csharp
       public void Init()
       {
-          GameRewardsOfferWall.OnRewardEarned += OnRewardEarned;
-          GameRewardsOfferWall.Init();
+          GameRewardsOfw.OnRewardEarned += OnRewardEarned;
+          GameRewardsOfw.Init();
       }
       ```
 
@@ -68,7 +69,7 @@ To ensure proper functioning of the gg.gamerewards SDK, please add the following
       ```csharp
       public void ShowOfferWall()
       {
-          GameRewardsOfferWall.Show();
+          GameRewardsOfw.Show();
       }
       ```
 
@@ -76,7 +77,7 @@ To ensure proper functioning of the gg.gamerewards SDK, please add the following
     - **Description:** Handles the event when a reward is earned through the offer wall.
     - **Parameters:**
       - `amount` (int): The amount of the reward earned.
-    - **Usage:** This method is automatically called when the `OnRewardEarned` event is triggered by the `GameRewardsOfferWall`.
+    - **Usage:** This method is automatically called when the `OnRewardEarned` event is triggered by the `GameRewardsOfw`.
     - **Implementation:**
       ```csharp
       private void OnRewardEarned(int amount)
@@ -97,13 +98,13 @@ public class OfferWallController : MonoBehaviour
 
     public void Init()
     {
-        GameRewardsOfferWall.OnRewardEarned += OnRewardEarned;
-        GameRewardsOfferWall.Init(appKeyId, placementId, userId);
+        GameRewardsOfw.OnRewardEarned += OnRewardEarned;
+        GameRewardsOfw.Init(appKeyId, placementId, userId);
     }
 
     public void ShowOfferWall()
     {
-        GameRewardsOfferWall.Show();
+        GameRewardsOfw.Show();
     }
 
     private void OnRewardEarned(int amount)
