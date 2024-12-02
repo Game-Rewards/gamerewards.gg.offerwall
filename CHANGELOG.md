@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.28] - 2024-12-02
+### :sparkles: New Features
+- [`4fa4663`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/4fa46638bb1738319a8d3965e3473bfaac384193) - Update package version to 1.0.8 from 1.0.7 *(commit by [@onurclb](https://github.com/onurclb))*
+
+### :construction_worker: Build System
+- [`3021d1d`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/3021d1df34d6fcd36a1b2dead0b292bf68037295) - Bump package version to v1.0.28
+
+
+## [v1.0.27] - 2024-11-21
+### :sparkles: New Features
+- [`2c51861`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/2c51861c5145b3e11f0d048c7dc616b2a65a0222) - Update package version to 1.0.7 from 1.0.6 *(commit by [@onurclb](https://github.com/onurclb))*
+
+### :construction_worker: Build System
+- [`ab56736`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/ab5673605c9faee92a386342f8961875941a27dd) - Bump package version to v1.0.27
+
+
 ## [v1.0.26] - 2024-06-20
 ### :sparkles: New Features
 - [`daf2e5e`](https://github.com/megafortunagames/gamerewards.gg.offerwall/commit/daf2e5e7103e85e31c04b10cf7fb9e96ca33c4d1) - Update Dependencies.xml *(commit by [@akadirdursun](https://github.com/akadirdursun))*
@@ -231,3 +247,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v1.0.24]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.23...v1.0.24
 [v1.0.25]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.24...v1.0.25
 [v1.0.26]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.25...v1.0.26
+[v1.0.27]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.26...v1.0.27
+[v1.0.28]: https://github.com/megafortunagames/gamerewards.gg.offerwall/compare/v1.0.27...v1.0.28
