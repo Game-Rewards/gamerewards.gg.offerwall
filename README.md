@@ -10,7 +10,7 @@ The `OfferWallController` class is designed to manage and interact with the Game
 You can integrate the offerwall SDK by either pulling it from the GitHub repository using the following link in your `manifest.json` file:
 
 ```json
-"gamerewards.gg.offerwall": "git@github.com:Game-Rewards/gamerewards.gg.offerwall.git#v1.0.27"
+"gamerewards.gg.offerwall": "git@github.com:Game-Rewards/gamerewards.gg.offerwall.git#v1.0.28"
 ```
 
 

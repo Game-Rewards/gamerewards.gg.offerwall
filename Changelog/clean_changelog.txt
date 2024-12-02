@@ -1,5 +1,5 @@
   New Features
-Update package version to 1.0.7 from 1.0.6 *(commit by @onurclb)*
+Update package version to 1.0.8 from 1.0.7 *(commit by @onurclb)*
 
   Build System
-Bump package version to v1.0.27
+Bump package version to v1.0.28
