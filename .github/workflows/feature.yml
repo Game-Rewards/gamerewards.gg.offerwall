@@ -1,4 +1,4 @@
-name: Mega Package CI/CD
+name: Offerwall Package CI/CD
     
 on:
   workflow_dispatch:
@@ -11,8 +11,6 @@ on:
 jobs:
   distribute:
     runs-on: ubuntu-latest
-    env:
-      TEAM_HOOK: https://powgames.webhook.office.com/webhookb2/6f0b2874-741f-45d9-9ac6-479cc2ac3593@c0873ddb-dfab-4b35-941d-0fcf887610a2/IncomingWebhook/526436318ee943e2acd479b47be28c00/1b6e9ae6-2297-467e-b0a8-97c3c649a01f
     name: Distribute Package
     steps:
       - uses: actions/checkout@v3
@@ -20,7 +18,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-          scope: '@megafortunagames'
+          scope: '@Game-Rewards'
       - run: npm install
       - name: Increase package version
         run: |
@@ -30,8 +28,8 @@ jobs:
             echo "VERSION=$(npm version --no-git-tag-version patch)" >> $GITHUB_ENV
           fi
       - run: |
-         git config user.name megafortunagames
-         git config user.email dev@megafortuna.co
+         git config user.name gamerewards
+         git config user.email dev@gamerewards.gg
          git add .
          git commit -m "ci: Bump package version to ${{ env.VERSION }}"
          git push -u origin ${{ env.BRANCH }}
@@ -109,8 +107,8 @@ jobs:
           allowUpdates: true
           
       - run: |
-         git config user.name megafortunagames
-         git config user.email dev@megafortuna.co
+         git config user.name gamerewards
+         git config user.email dev@gamerewards.gg
          git add .
          git commit -m "docs: ${{ github.ref_name }} Update CHANGELOG.md"
          git push -u origin ${{ env.BRANCH }}
